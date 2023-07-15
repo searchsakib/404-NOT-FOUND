@@ -13,6 +13,7 @@ body {
 img {
   width: 100%;
 }
+
 .heading-text {
   color: #333;
   color: #333;
@@ -43,4 +44,24 @@ img {
   text-align: center;
   font-size: 0.875rem;
   font-weight: 500;
+}
+.footer {
+  text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+  .main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    height: 89vh;
+  }
+  .img-div,
+  .heading {
+    width: 36rem;
+  }
+  img {
+    width: 100%;
+  }
 }
