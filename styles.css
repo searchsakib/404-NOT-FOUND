@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Space Mono', monospace;
+}
+.logo-text {
+  font-family: 'Inconsolata', monospace;
+  margin: 1.5rem;
+}
+img {
+  width: 100%;
+}
+.heading-text {
+  color: #333;
+  color: #333;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.105rem;
+  padding: 2rem 1rem;
+}
+.para-text {
+  color: #4f4f4f;
+  font-size: 1.125rem;
+  font-weight: 400;
+  letter-spacing: -0.03938rem;
+  padding: 0rem 1rem 4rem 1rem;
+}
+.btn-primary {
+  width: 13.5rem;
+  height: 4.25rem;
+  color: #fff;
+  background: #333;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: -0.03063rem;
+  margin: 0 1rem 3rem 1rem;
+}
+.dev {
+  color: #bdbdbd;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
